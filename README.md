@@ -13,22 +13,22 @@ The project name should start with `grow-tool-` (ex: `grow-tool-my-project`).
 
 The name should also be used when registering the tool with grow:
 
-[sourcecode:js]
+```js
 // tool.js
 grow.ui.tools.push({
   'kind': 'image-swap',
   // ...
 }
-[/sourcecode]
+```
 
 And for styling the grow UI button icon:
 
-[sourcecode:css]
+```css
 /* tool.css */
 .grow__icon_my-project {
   /* background-image: url(); */
 }
-[/sourcecode]
+```
 
 ### File Names
 
